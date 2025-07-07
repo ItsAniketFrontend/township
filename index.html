@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Town By Unique Builders</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <img src="Images/mannat.png" class="left-logo" alt="">
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    <img src="Images/ub-logo.png" class="right-logo" alt="">
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container justify-content-center">
+                <!-- <a class="navbar-brand" href="#">
+          <img src="Images/logo.png" width="200px" alt="">
+        </a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#amenities">Amenities</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#location">Location</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#plans">Floor Plans</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" onclick="toggleForm()">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="scroll-btn">
+            <button onclick="toggleForm()">I 'am Interested</button>
+        </div>
+
+        <section class="banner" id="home">
+            <img src="Images/banner.jpg" class="img-fluid d-none d-sm-none d-md-block d-lg-block d-xl-block"
+                width="100%" height="auto" alt="">
+            <img src="Images/mobile-size.png" class="img-fluid d-block d-sm-block d-md-none d-lg-none d-xl-none" alt="">
+        </section>
+
+        <section class="content" id="about">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center flex-column ">
+                    <div class="col-12 col-lg-10 text-center">
+                        <h1>Wecome to a Unique Life</h1>
+                        <h2>Nestled along the vibrant Ajmer Road, Jaipur, Unique Life is more than just a plotted
+                            Development-it is a lifestyle redefined.</h2>
+                        <p>Here, life unfolds in perfect harmony with nature, modernity, and a thriving ecosystem that
+                            ensures convenience, comfort, and connection. Step into a world where every sunrise brings
+                            new possibilities, and every sunset paints the sky with dreams yet to be realized.</p>
+                        <button class="cta mt-2" onclick="toggleForm()">Know More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="Images/about.png" width="100%" height="auto" alt="">
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center flex-column my-lg-0 my-2">
+                        <h2>A SANCTUARY
+                            DESIGNED FOR LIFE</h2>
+                        <p>Unique Life is designed to offer thoughtfully planned plots that maximize space and enhance
+                            the quality of life. Wide roads, green boulevards, and modern infrastructure lay the
+                            foundation for a vibrant, self-sustaining community.</p>
+                        <h4>Key Highlights</h4>
+                        <ul>
+                            <li>
+                                <div class="d-flex gap-2 align-items-center">
+                                    <img src="Images/gate.png" width="32px" alt="">
+                                    <div class="">
+                                        <h5 class="mb-0">Gated Community:</h5>
+                                        <p>secure and serene living environment</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex gap-2 align-items-center">
+                                    <img src="Images/road.png" width="32px" alt="">
+                                    <div class="">
+                                        <h5 class="mb-0">Tree-lined Avenues:</h5>
+                                        <p>A lush green canopy to refresh your everyday</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex gap-2 align-items-center">
+                                    <img src="Images/infrastructure.png" width="32px" alt="">
+                                    <div class="">
+                                        <h5 class="mb-0">Smart Infrastructure:</h5>
+                                        <p>Underground wiring, well-planned drainage, and modern utilities</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 d-flex justify-content-center flex-column order-lg-1 order-2 my-lg-0 my-2">
+                        <h2>ROOTED IN GROWTH,
+                            CONNECTED
+                            TO POSSIBILITIES</h2>
+                        <p>Ajmer Road is rapidly emerging as Jaipur's most sought-after destination. With its seamless
+                            connectivity to the city's prime hubs and future-ready infrastructure, this corridor is a
+                            beacon of urban transformation. The location is set to witness exponential growth, making
+                            Unique Life not just a place to live, but a wise investment for the future.</p>
+                        <h4>Strategic Connectivity from Ajmer Road</h4>
+                        <ul>
+                            <li class="my-1">
+                                <div class="d-flex gap-2 align-items-center">
+                                    <img src="Images/gate.png" width="32px" alt="">
+                                    <div class="">
+                                        <p>In close proximity to the Ring Road</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="my-1">
+                                <div class="d-flex gap-2 align-items-center">
+                                    <img src="Images/road.png" width="32px" alt="">
+                                    <div class="">
+                                        <p>Easy access to the Jaipur-Delhi Expressway</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="my-1">
+                                <div class="d-flex gap-2 align-items-center">
+                                    <img src="Images/infrastructure.png" width="32px" alt="">
+                                    <div class="">
+                                        <p>Well-connected to major commercial & residential districts</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="my-1">
+                                <div class="d-flex gap-2 align-items-center">
+                                    <img src="Images/infrastructure.png" width="32px" alt="">
+                                    <div class="">
+                                        <p>Close to renowned educational institutions & healthcare facilities</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 order-lg-2 order-1">
+                        <img src="Images/about-2.png" width="100%" height="auto" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aminity py-5" id="amenities">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-4">
+                        <h2>WHERE EVERY AMENITY
+                            BLOSSOMS WITH LIFE</h2>
+                    </div>
+                    <div class="col-lg-8">
+                        <p>A home is more than four walls; it's the experiences it fosters. Unique Life is curated with
+                            an array of world-class amenities to cater to all generations.</p>
+                    </div>
+                    <div class="col-lg-12 m-0 p-0">
+                        <img src="Images/long.png" width="100%" height="auto" alt="">
+                    </div>
+                    <div class="col-lg-4 col-6 m-0 p-0">
+                        <img src="Images/short-1.png" width="100%" height="auto" alt="">
+                    </div>
+                    <div class="col-lg-4 col-6 m-0 p-0">
+                        <img src="Images/short-2.png" width="100%" height="auto" alt="">
+                    </div>
+                    <div class="col-lg-4 col-12 m-0 p-0">
+                        <img src="Images/short-3.png" width="100%" height="auto" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="floor-plans" id="floor-plan">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h2>Master Plans</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-8">
+                        <img src="Images/master-plan.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 location" id="location">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>LOCATION ADVANTAGE</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-6">
+                        <img src="Images/location.png" width="100%" height="auto" alt="">
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center flex-column my-lg-0 my-2">
+                        <h2>Unique life Where Dreams Take Root</h2>
+                        <h4>Key Highlights</h4>
+                        <ul>
+                            <li><strong>Connectivity:</strong><br>Close Proximity to the Ring Road
+                                Easy access to Delhi, Agra, and Jaipur-Kota Highway Located on the vibrant Ajmer Road
+                            </li>
+                            <li><strong>Everyday Conveniences:</strong><br>Top-tier schools and universities within a
+                                short drive Well-established coaching hubs and learning centers</li>
+                            <li><strong>Healthcare & Wellness:</strong> <br>Multi-specialty hospitals and clinics in
+                                close vicinity Wellness retreats, yoga centers, and gyms nearby</li>
+                            <li><strong>Retail & Entertainment:</strong><br>Malls, supermarkets, and high-street
+                                shopping avenues Restaurants and cafés offering a vibrant culinary scene.</li>
+                            <li><strong>Employment & Business Opportunities:</strong><br>Proximity to IT hubs, SEZs, and
+                                commercial centers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact pb-5" id="contact">
+            <div class="container">
+                <form action="">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-12 text-center">
+                            <h2>Feel Free To Reach Us</h2>
+                        </div>
+                        <div class="col-12 col-lg-7 my-2">
+                            <input type="text" placeholder="Full Name">
+                        </div>
+                        <div class="col-12 col-lg-7 my-2">
+                            <input type="text" placeholder="Phone Number" name="" id="">
+                        </div>
+                        <div class="col-12 col-lg-7 my-2">
+                            <input type="email" placeholder="Email" name="" id="">
+                        </div>
+                        <div class="col-12 col-lg-7 my-2">
+                            <textarea placeholder="Enter Your Message" name="" id=""></textarea>
+                        </div>
+                        <div class="col-12 col-lg-7">
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 text-center">
+                        <p>&copy; 2025 Unique Builders. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="container popup_form">
+            <div class="overlay" id="overlay"></div>
+
+            <!-- Form Container -->
+            <div class="form-container" id="formContainer">
+                <span class="close-btn btn cross" onclick="toggleForm()">X</span>
+                <h5 class="text-center mt-4 mb-4 ">Please fill up the below details</h5>
+                <form id="logs" method="post">
+                    <div id="table-data"></div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control txtNumeric" id="name" name="name"
+                            placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone number</label>
+                        <input type="text" class="form-control numbersOnly" id="phone" minlength="10" maxlength="10"
+                            name="phone" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3"
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <div class="text-center mb-3">
+                        <button type="submit" id="btnsubmits" class="btn w-50">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script>
+            // Function to toggle form visibility
+            function toggleForm() {
+                var overlay = document.getElementById('overlay');
+                var formContainer = document.getElementById('formContainer');
+                if (overlay.style.display === 'none' || overlay.style.display === '') {
+                    overlay.style.display = 'block';
+                    formContainer.style.display = 'block';
+                } else {
+                    overlay.style.display = 'none';
+                    formContainer.style.display = 'none';
+                }
+            }
+        </script>
+        <script>
+            setTimeout(toggleForm, 3000);
+        </script>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,394 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: avalon-bold;
+    src: url(../avalon/Avalon-Bold.ttf);
+}
+
+@font-face {
+    font-family: avalon-extralight;
+    src: url(../avalon/Avalon-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: avalon-medium;
+    src: url(../avalon/Avalon-Medium.ttf);
+}
+
+@font-face {
+    font-family: avalon-book;
+    src: url(../avalon/Avalon-Book.ttf);
+}
+
+@font-face {
+    font-family: avalon-demi;
+    src: url(../avalon/Avalon-Demi.ttf);
+}
+
+
+header {
+    // position: fixed;
+    // top: 0px;
+    // width: 100%;
+    // z-index: 1200;
+    background-color: #fff;
+    .left-logo {
+       width: 100px;
+    }
+    .right-logo{
+        width: 160px;
+    }
+}
+
+
+nav {
+    a {
+        font-size: 16px !important;
+        font-family: avalon-book !important;
+        line-height: normal;
+        color: #000 !important;
+        text-transform: uppercase;
+    }
+
+    .navbar-toggler {
+        border: none;
+
+        .navbar-toggler-icon {
+            display: inline-block;
+            width: 1.5em;
+            height: 1.5em;
+            vertical-align: middle;
+            background-image: url(../Images/Menu.png) !important;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            border: none;
+        }
+    }
+}
+
+.content {
+    padding: 80px 0px;
+
+    @media (max-width:991px) {
+        padding: 40px 0px;
+    }
+
+    h1 {
+        font-size: 52px;
+        font-family: avalon-book;
+        font-style: normal;
+        margin: 0px;
+        color: #997A49;
+        padding-bottom: 20px;
+
+        @media (max-width:991px) {
+            font-size: 30px;
+        }
+    }
+
+    h2 {
+        font-size: 26px;
+        font-family: avalon-book;
+        margin: 0px;
+        font-style: normal;
+    }
+    p{
+        
+        font-size: 15px;
+        font-family: avalon-book;
+        color: #000;
+        margin: 0px;
+        padding-bottom: 10px;
+    }
+    button{
+        background-color: #710306;
+        color: #fff;
+        padding: 5px 20px;
+        font-family: avalon-book;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
+
+.about{
+    h2{
+        font-size: 36px;
+        font-family: avalon-book;
+        color: #997A49;
+        margin: 0px;
+        padding-bottom: 16px;
+
+    }
+
+    p {
+        font-size: 15px;
+        font-family: avalon-book;
+        color: #000;
+        margin: 0px;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+
+    h4{
+        font-size: 20px;
+        font-family: avalon-book;
+        color: #997A49;
+        margin: 0px;
+        font-weight: 800;
+        padding-bottom: 10px;
+    }
+
+    li{
+        list-style: none;
+        font-family: avalon-book;
+    }
+}
+
+.aminity{
+    h2{
+        font-size: 36px;
+        font-family: avalon-book;
+        color: #997A49;
+        margin: 0px;
+        padding-bottom: 16px;
+    }
+    p{
+        font-size: 15px;
+        font-family: avalon-book;
+        color: #000;
+        margin: 0px;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+}
+
+.floor-plans{
+    h2{
+        font-size: 36px;
+        font-family: avalon-book;
+        color: #997A49;
+        margin: 0px;
+        padding-bottom: 16px;
+    }  
+}
+
+.location{
+    h1{
+        font-size: 46px;
+        font-family: avalon-book;
+        color: #997A49;
+        margin: 0px;
+        padding-bottom: 16px;
+    } 
+    h2{
+        font-size: 36px;
+        font-family: avalon-book;
+        color: #997A49;
+        margin: 0px;
+        padding-bottom: 16px;
+    }  
+    h4{
+         font-size: 24px;
+        font-family: avalon-book;
+        color: #000;
+        margin: 0px;
+        padding-bottom: 16px;
+    }
+    li{
+        font-size: 15px;
+        font-family: avalon-book;
+        color: #000;
+        margin: 0px;
+        padding-bottom: 16px;
+    }
+}
+
+.contact{
+    h2{
+        font-size: 36px;
+        font-family: avalon-book;
+        color: #997A49;
+        margin: 0px;
+        padding-bottom: 16px;
+    }  
+    p{
+        font-size: 15px;
+        font-family: avalon-book;
+        color: #000;
+        margin: 0px;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+    input{
+        width: 100%;
+        padding: 5px;
+        font-size: 15px;
+        border: 1px solid #997A49;
+        font-family: avalon-book;       
+    }
+    textarea{
+        width: 100%;
+        padding: 5px;
+        font-size: 15px;
+        border: 1px solid #997A49;
+        font-family: avalon-book;       
+    }
+    button{
+        background-color: #710306;
+        color: #fff;
+        padding: 5px 20px;
+        font-family: avalon-book;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+}
+
+footer {
+    color: #710306;
+    padding: 5px 0px;
+    text-align: center;
+    p {
+        font-size: 14px;
+        font-family: avalon-book;
+        margin: 0px;
+    }
+
+    a {
+        color: #0000;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999999;
+}
+
+.form-container {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 120px;
+    border-radius: 5px;
+    display: none;
+    z-index: 999999;
+
+}
+
+.form-container button:hover {
+    background-color: white;
+    color: black;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.popup_form .cross {
+    background-color: #997A49;
+    color: #fff;
+
+    &:hover {
+        background-color: #997A49;
+        color: #fff;
+    }
+}
+
+.popup_form label {
+    color: #997A49;
+    font-family: avalon-book;
+    font-size: 18px;
+}
+
+.popup_form input{
+    font-family: avalon-book;
+    font-size: 14px;
+    color: #53626a;
+}
+
+.popup_form textarea{
+    font-family: avalon-book;
+    font-size: 14px;
+    color: #53626a;
+}
+
+.popup_form h5 {
+    color: #997A49;
+    font-family: avalon-book;
+    font-size: 24px;
+}
+
+.popup_form h6 {
+    color: #997A49;
+    font-family: avalon-bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.popup_form button {
+    background-color: #710306;
+    color: #fff;
+    font-family: avalon-book;
+    font-weight: 500;
+
+    &:hover {
+        border: 1px solid #997A49;
+    }
+}
+
+@media (max-width:576px) {
+    .form-container {
+        top: 50%;
+        width: 100%;
+        padding: 50px 60px;
+    }
+
+    .btn_brochure {
+        background-color: #1e1916;
+        padding: 5px 0 20px 0;
+        margin-top: -5px;
+    }
+}
+
+.scroll-btn{
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+    z-index: 100;
+    button{
+        border: none;
+        background-color: #710306;
+        font-size: 21px;
+        font-family: avalon-book;
+        color: #fff;
+        text-decoration: none;
+        width: fit-content;
+        padding: 10px 30px;
+        text-transform: capitalize;
+        @media (max-width:991px) {
+            font-size: 17px;
+            padding: 5px 20px;
+        }
+    }
+}
